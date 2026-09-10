@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Опрацювання теми Git</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; color: #333; max-width: 900px; margin: 0 auto; padding: 20px; }
+        h1, h2 { color: #2c3e50; border-bottom: 2px solid #ecf0f1; padding-bottom: 5px; }
+        code { background-color: #f4f4f4; padding: 2px 5px; border-radius: 4px; font-family: monospace; }
+        pre { background: #272822; color: #f8f8f2; padding: 15px; border-radius: 5px; overflow-x: auto; }
+        ul, ol { margin-bottom: 20px; }
+        .certificate { text-align: center; margin: 20px 0; }
+        .certificate img { max-width: 100%; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body>
 
+    <h1>Система контролю версій Git</h1>
+
+    <h2>1. Вступ</h2>
+    <p><b>Система контролю версій (VCS)</b> — це програмне забезпечення, що відстежує зміни у файлах. <b>Git</b> — це розподілена система контролю версій, створена у 2005 році Лінусом Торвальдсом.</p>
+
+    <h2>2. Основні переваги Git</h2>
+    <ul>
+        <li>Розподілена архітектура (робота офлайн)</li>
+        <li>Зручне створення гілок та об'єднання коду</li>
+        <li>Висока швидкість та безпека (SHA-1/SHA-256)</li>
+    </ul>
+
+    <h2>3. 10 базових команд Git</h2>
+    <ol>
+        <li><code>git init</code> — Ініціалізація локального репозиторію.</li>
+        <li><code>git clone &lt;URL&gt;</code> — Клонування віддаленого репозиторію.</li>
+        <li><code>git status</code> — Перегляд стану файлів.</li>
+        <li><code>git add .</code> — Додавання змін до індексу.</li>
+        <li><code>git commit -m "опис"</code> — Фіксація змін у репозиторії.</li>
+        <li><code>git branch</code> — Перегляд та управління гілками.</li>
+        <li><code>git checkout -b &lt;гілка&gt;</code> — Створення та перехід на нову гілку.</li>
+        <li><code>git merge &lt;гілка&gt;</code> — Об'єднання гілок.</li>
+        <li><code>git pull</code> — Отримання змін з віддаленого репозиторію.</li>
+        <li><code>git push origin &lt;гілка&gt;</code> — Надсилання змін на віддалений сервер.</li>
+    </ol>
+
+    <h2>4. Сертифікат курсу</h2>
+    <div class="certificate">
+        <img src="certificate.jpg" alt="Сертифікат з курсу Git">
+    </div>
+
+    <h2>5. Джерела інформації</h2>
+    <ul>
+        <li><a href="https://git-scm.com/book/uk/v2" target="_blank">Офіційне керівництво Pro Git</a></li>
+        <li><a href="https://learngitbranching.js.org/?locale=uk" target="_blank">Learn Git Branching</a></li>
+    </ul>
+
+</body>
+</html>
